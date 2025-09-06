@@ -6,13 +6,60 @@
     <title>Document</title>
     <link rel="stylesheet" href="styles.css">
     <link href='https://fonts.googleapis.com/css?family=Orbitron' rel='stylesheet'>
+    <style>
+        /* Body styling */
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Orbitron', sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        /* Images styling */
+        img {
+            width: 90%;
+            max-width: 600px;
+            height: auto;
+            margin: 20px 0;
+            border-radius: 15px;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        img:hover {
+            transform: scale(1.03);
+            box-shadow: 0 12px 25px rgba(0,0,0,0.3);
+        }
+
+        /* "Go Back" button styling */
+        a {
+            display: inline-block;
+            padding: 12px 25px;
+            margin: 30px 0;
+            text-align: center;
+            text-decoration: none;
+            color: #fff;
+            background-color: #f4a261; /* warm orange */
+            border-radius: 10px;
+            font-weight: bold;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+            transition: transform 0.2s, background-color 0.2s;
+        }
+
+        a:hover {
+            background-color: #e76f51; /* darker orange on hover */
+            transform: scale(1.05);
+        }
+    </style>
 </head>
 <body>
-    <img src="WIN_20250906_09_51_53_Pro.jpg" alt="Me thumbs up picture" style="width: 100%;" style="height: 100%;">
-    <img src="Scientist.jpg" alt="Me thumbs up picture" style="width: 100%;" style="height: 100%;">
-    <img src="BIRD.jpg" alt="Me thumbs up picture" style="width: 100%;" style="height: 100%;">
-    <img src="sir.jpg" alt="Me thumbs up picture" style="width: 100%;" style="height: 100%;">
+    <img src="WIN_20250906_09_51_53_Pro.jpg" alt="Me thumbs up picture">
+    <img src="Scientist.jpg" alt="Me thumbs up picture">
+    <img src="BIRD.jpg" alt="Me thumbs up picture">
+    <img src="sir.jpg" alt="Me thumbs up picture">
 
-    <a href="/index.html" style="text-align: center;">GO BAAAAACK</a>
+    <a href="/index.html">GO BAAAAACK</a>
 </body>
 </html>
