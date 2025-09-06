@@ -25,7 +25,8 @@ li {
 img {
     border: blueviolet;
     border-radius: 50px;
-    margin: 10px;
+    margin: auto;
+    
 }
 
 div {
@@ -37,4 +38,9 @@ h2 {
     font-family: 'Orbitron', sans-serif;
     color:darkslateblue;
     margin: 10px;
+}
+
+section {
+    font-size: x-large;
+    width: 1000;
 }
